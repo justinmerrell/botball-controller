@@ -4,3 +4,6 @@
 [submodule "botui"]
 	path = botui
 	url = git@github.com:kipr/botui.git
+[submodule "pcompiler"]
+	path = pcompiler
+	url = git@github.com:kipr/pcompiler.git
