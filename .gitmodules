@@ -1,9 +1,9 @@
 [submodule "harrogate"]
 	path = harrogate
 	url = https://github.com/kipr/harrogate
-[submodule "botui"]
-	path = botui
-	url = git@github.com:kipr/botui.git
 [submodule "pcompiler"]
 	path = pcompiler
 	url = git@github.com:kipr/pcompiler.git
+[submodule "botui"]
+	path = botui
+	url = git@github.com:kipr/botui.git
