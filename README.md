@@ -7,9 +7,11 @@ This repository brings togeather the submodules that togeather proveds the funct
 
 # Submodules Functions
 
-[Built-in Interface]()
+The following submodules are ordered from general software only requirements down to hardware dependant.
 
-[Web Interface]()
+[Web Interface](https://github.com/kipr/harrogate) - Harrogate is the web UI for the controller.
+
+[Built-in Interface]()
 
 [Hardware Communication]()
 
@@ -21,6 +23,8 @@ The controller is only compatable with the Linuix operarating system.
 
 ```
 git clone --recurse-submodules https://github.com/kipr/botball-controller
+
 sudo chmod +x botball-controller/install.sh
+
 sudo botball-controller/install.sh
 ```
