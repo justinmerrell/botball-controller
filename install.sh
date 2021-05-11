@@ -33,7 +33,7 @@ sudo cmake ..
 # ---------------------------------------------------------------------------- #
 #                                   Device UI                                  #
 # ---------------------------------------------------------------------------- #
-
+sudo apt-get dist-upgrade -y libopencv-dev
 sudo mkdir botui/build
 cd botui/build
 sudo cmake ..
