@@ -3,15 +3,21 @@ By exposing students to an inquiry-based, learn-by-doing activity that appeals t
 
 KIPR has been developing customer [hardware and software](https://www.kipr.org/kipr/hardware-software) for many years to offer students with an easy to use controller. The latest itteration of the controller is the **Wombat**.
 
-This repository brings togeather the submodules that togeather proveds the functionality of the controller.
+# Installer
+
+This repository brings togeather the submodules that togeather proveds the functionality of the controller and provides a single point for instalation. Submodules can can be updated independently and released as a single update through this repository.
+
+Miscilanious instalation functions are also accomplished by this repository including configuring the services to launch on boot.
 
 # Submodules Functions
 
 The following submodules are ordered from general software only requirements down to hardware dependant.
 
-[Web Interface](https://github.com/kipr/harrogate) - Harrogate is the web UI for the controller.
+[Web Interface](https://github.com/kipr/harrogate) - Harrogate is the web UI for the controller. This module is also responsible for file management on the controller.
 
-[Built-in Interface]()
+[Compiler Utility](https://github.com/kipr/pcompiler/tree/use_Qt4) - pccompiler is an automatic source code compiler. Given a set of input files, pcompiler will attempt to create an executable out of them.
+
+[Built-in Interface](https://github.com/kipr/botui) - BotUI provides an interface on the built in touch screen display screen of the controller.
 
 [Hardware Communication]()
 

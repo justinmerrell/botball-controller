@@ -18,3 +18,22 @@ gulp
 # Starts server
 #
 # sudo node server.js
+
+
+# ---------------------------------------------------------------------------- #
+#                           Install Compiler Utility                           #
+# ---------------------------------------------------------------------------- #
+sudo apt-get dist-upgrade -y cmake
+sudo apt-get dist-upgrade -y qt5-default
+sudo mkdir pcompiler/build
+cd pcompiler/build
+sudo cmake ..
+
+
+# ---------------------------------------------------------------------------- #
+#                                   Device UI                                  #
+# ---------------------------------------------------------------------------- #
+
+sudo mkdir botui/build
+cd botui/build
+sudo cmake ..
