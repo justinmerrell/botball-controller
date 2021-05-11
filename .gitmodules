@@ -1,0 +1,3 @@
+[submodule "harrogate"]
+	path = harrogate
+	url = https://github.com/kipr/harrogate
