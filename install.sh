@@ -6,3 +6,4 @@ set -m              #Set Job Control
 # ---------------------------------------------------------------------------- #
 sudo apt-get dist-upgrade -y nodejs
 sudo npm install npm –global
+sudo npm install harrogate
