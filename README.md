@@ -26,6 +26,9 @@ The following submodules are ordered from general software only requirements dow
 # Installation
 
 The controller is only compatable with the Linuix operarating system.
+### Verified OS
+Ubuntu Server 20.04.2 LTS
+
 
 ```
 git clone --recurse-submodules https://github.com/kipr/botball-controller
